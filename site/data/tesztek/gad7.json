@@ -1,0 +1,161 @@
+{
+  "id": "gad7",
+  "verzio": "1.0",
+  "nev": {
+    "hu": "GAD-7 – Generalizált szorongás kérdőív",
+    "ro": "GAD-7 – Chestionar de anxietate generalizată",
+    "en": "GAD-7 – Generalized Anxiety Disorder questionnaire"
+  },
+  "rovid": {
+    "hu": "A szorongásos tünetek gyakoriságát méri az elmúlt két hétben.",
+    "ro": "Măsoară frecvența simptomelor de anxietate în ultimele două săptămâni.",
+    "en": "Measures how often you have had anxiety symptoms over the last two weeks."
+  },
+  "perc": 2,
+  "forras": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. Arch Intern Med. 2006;166:1092-1097. Forrás és hivatalos fordítások: phqscreeners.com",
+  "licenc": "A jogtulajdonos (Pfizer) közlése szerint reprodukálásához, fordításához, megjelenítéséhez és terjesztéséhez nem szükséges engedély.",
+  "hivatkozas": "GAD-7 © Pfizer Inc. Spitzer RL, Kroenke K, Williams JBW, Löwe B. Arch Intern Med. 2006;166:1092–1097.",
+  "bevezeto": {
+    "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "hu": null,
+    "ro": null
+  },
+  "valaszok": [
+    {
+      "ertek": 0,
+      "en": "Not at all",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 1,
+      "en": "Several days",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 2,
+      "en": "More than half the days",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 3,
+      "en": "Nearly every day",
+      "hu": null,
+      "ro": null
+    }
+  ],
+  "kerdesek": [
+    {
+      "id": 1,
+      "en": "Feeling nervous, anxious, or on edge",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 2,
+      "en": "Not being able to stop or control worrying",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 3,
+      "en": "Worrying too much about different things",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 4,
+      "en": "Trouble relaxing",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 5,
+      "en": "Being so restless that it is hard to sit still",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 6,
+      "en": "Becoming easily annoyed or irritable",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 7,
+      "en": "Feeling afraid, as if something awful might happen",
+      "hu": null,
+      "ro": null
+    }
+  ],
+  "pontozas": {
+    "szorzo": 1,
+    "min": 0,
+    "max": 21
+  },
+  "kritikus_tetelek": [],
+  "kategoriak": [
+    {
+      "tol": 0,
+      "ig": 4,
+      "szint": "ok",
+      "nev": {
+        "hu": "Minimális szorongás",
+        "ro": "Anxietate minimă",
+        "en": "Minimal anxiety"
+      },
+      "szoveg": {
+        "hu": "A válaszaid alapján az elmúlt két hétben alig voltak szorongásos tüneteid.",
+        "ro": "Pe baza răspunsurilor tale, în ultimele două săptămâni ai avut foarte puține simptome de anxietate.",
+        "en": "Based on your answers, you have had very few anxiety symptoms over the last two weeks."
+      }
+    },
+    {
+      "tol": 5,
+      "ig": 9,
+      "szint": "enyhe",
+      "nev": {
+        "hu": "Enyhe szorongás",
+        "ro": "Anxietate ușoară",
+        "en": "Mild anxiety"
+      },
+      "szoveg": {
+        "hu": "Enyhe szorongásos tünetek jelentek meg. Érdemes figyelni rájuk; ha tartósan fennállnak vagy erősödnek, beszélj szakemberrel.",
+        "ro": "Au apărut simptome ușoare de anxietate. Merită să le urmărești; dacă persistă sau se accentuează, vorbește cu un specialist.",
+        "en": "Mild anxiety symptoms are present. Keep an eye on them; if they persist or get stronger, talk to a professional."
+      }
+    },
+    {
+      "tol": 10,
+      "ig": 14,
+      "szint": "kozepes",
+      "nev": {
+        "hu": "Közepes szorongás",
+        "ro": "Anxietate moderată",
+        "en": "Moderate anxiety"
+      },
+      "szoveg": {
+        "hu": "A pontszám közepes szintű szorongásra utal. Ebben a tartományban javasolt szakemberrel konzultálni és további vizsgálatot végezni.",
+        "ro": "Scorul indică un nivel moderat de anxietate. În acest interval se recomandă consultarea unui specialist și o evaluare suplimentară.",
+        "en": "The score points to a moderate level of anxiety. In this range it is advisable to consult a professional and have a further assessment."
+      }
+    },
+    {
+      "tol": 15,
+      "ig": 21,
+      "szint": "magas",
+      "nev": {
+        "hu": "Súlyos szorongás",
+        "ro": "Anxietate severă",
+        "en": "Severe anxiety"
+      },
+      "szoveg": {
+        "hu": "A pontszám súlyos szorongásos tünetekre utal. Javasolt minél hamarabb szakemberhez (pszichológushoz, pszichiáterhez vagy háziorvoshoz) fordulni.",
+        "ro": "Scorul indică simptome severe de anxietate. Se recomandă să te adresezi cât mai curând unui specialist (psiholog, psihiatru sau medic de familie).",
+        "en": "The score indicates severe anxiety symptoms. It is advisable to see a professional (psychologist, psychiatrist or GP) as soon as possible."
+      }
+    }
+  ]
+}

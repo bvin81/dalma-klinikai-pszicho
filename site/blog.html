@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Dr. Jánosi Dalma blogja - Történetekről, kapcsolatokról és arról, ami bennünk zajlik.">
+  <title data-key="blog_meta_title">Blog – Jánosi Dalma</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/klinikai.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="canonical" href="https://janosidalma.ro/blog">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+
+    <!-- DESKTOP NAVIGÁCIÓ - FŐOLDAL gomb -->
+    <nav class="nav-desktop nav-left">
+      <a href="index.html" data-key="nav_home">Főoldal</a>
+      <a href="index.html#services" data-key="nav_services">Szolgáltatások</a>
+      <a href="tesztek.html" data-key="nav_tests">Tesztek</a>
+      <a href="blog.html" data-key="nav_blog">Blog</a>
+      <a href="index.html#contact" data-key="nav_contact">Kapcsolat</a>
+    </nav>
+
+    <!-- NYELVVÁLTÓ -->
+    <div class="lang-switcher">
+      <button data-lang="hu" aria-label="Magyar">HU</button>
+      <button data-lang="ro" aria-label="Română">RO</button>
+      <button data-lang="en" aria-label="English">EN</button>
+    </div>
+
+    <button class="nav-toggle" id="menuBtn" aria-label="Menü megnyitása">
+      <svg class="hamburger-icon" viewBox="0 0 24 24" width="28" height="28">
+        <path class="line line-1" d="M3 6h18"/>
+        <path class="line line-2" d="M3 12h18"/>
+        <path class="line line-3" d="M3 18h18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- MOBIL NAVIGÁCIÓ - FŐOLDAL gomb -->
+  <nav class="nav-mobile" id="mobileMenu">
+    <a href="index.html" data-key="nav_home">Főoldal</a>
+    <a href="index.html#services" data-key="nav_services">Szolgáltatások</a>
+    <a href="tesztek.html" data-key="nav_tests">Tesztek</a>
+    <a href="blog.html" data-key="nav_blog">Blog</a>
+    <a href="index.html#contact" data-key="nav_contact">Kapcsolat</a>
+  </nav>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="blog-header">
+  <div class="container">
+    <h1 data-key="blog_title">Blog</h1>
+    <p class="blog-subtitle" data-key="blog_subtitle">
+      Történetekről, kapcsolatokról és arról, ami bennünk zajlik.
+    </p>
+  </div>
+</section>
+
+<!-- BLOG GRID WITH SEARCH AND FILTER -->
+<section class="blog-list">
+  <div class="container">
+    
+    <!-- Keresés és kategória szűrő dinamikusan adódik hozzá a JS-ből -->
+    
+    <!-- Blog Grid Container -->
+    <div class="blog-grid" id="blogContainer">
+      <!-- Blog cards will be inserted here by JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <span data-key="footer_text">© 2025 Jánosi Dalma – Minden jog fenntartva</span>
+    <div class="footer-credit">
+      <a href="mailto:birovince@yahoo.com" data-key="footer_dev"></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

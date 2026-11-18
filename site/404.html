@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noindex">
+  <title>Az oldal nem található – Jánosi Dalma</title>
+  <!-- Abszolút útvonalak: a 404 bármilyen mélységű URL-en megjelenhet -->
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    .notfound {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .notfound-box { max-width: 34rem; }
+    .notfound-code {
+      font-family: var(--font-heading, "Poppins", sans-serif);
+      font-size: clamp(3.5rem, 12vw, 6rem);
+      line-height: 1;
+      color: var(--accent-main, #819A88);
+      margin-bottom: 1rem;
+    }
+    .notfound-box h1 { font-size: 1.5rem; margin-bottom: 0.75rem; }
+    .notfound-box p { color: var(--text-muted, #5c5f63); margin-bottom: 0.35rem; }
+    .notfound-lang { font-size: 0.95rem; }
+    .notfound-actions { margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <main class="notfound">
+    <div class="notfound-box">
+      <div class="notfound-code" aria-hidden="true">404</div>
+      <h1>Az oldal nem található</h1>
+      <p>A keresett oldal nem létezik, vagy elköltözött.</p>
+      <p class="notfound-lang" lang="ro">Pagina nu a fost găsită.</p>
+      <p class="notfound-lang" lang="en">Page not found.</p>
+      <div class="notfound-actions">
+        <a href="/" class="btn btn-primary">Vissza a főoldalra</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

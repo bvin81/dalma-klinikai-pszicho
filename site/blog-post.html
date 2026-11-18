@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Blogposzt - Dr. Jánosi Dalma">
+  <title data-key="blogpost.metatitle">Blog Bejegyzés</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/klinikai.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="canonical" href="https://janosidalma.ro/blog">
+  <script>(function(){var id=new URLSearchParams(location.search).get("id");if(id&&/^\d+$/.test(id)){document.querySelector('link[rel="canonical"]').href="https://janosidalma.ro/blog-post?id="+id;}})();</script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <!-- DESKTOP NAVIGÁCIÓ -->
+      <nav class="nav-desktop nav-left">
+        <a href="index.html" data-key="nav.home">Főoldal</a>
+        <a href="index.html#services" data-key="nav.services">Szolgáltatások</a>
+        <a href="blog.html" data-key="nav.blog">Blog</a>
+        <a href="index.html#contact" data-key="nav.contact">Kapcsolat</a>
+      </nav>
+      <!-- NYELVVÁLTÓ -->
+      <div class="lang-switcher">
+        <button data-lang="hu" aria-label="Magyar">HU</button>
+        <button data-lang="ro" aria-label="Român">RO</button>
+        <button data-lang="en" aria-label="English">EN</button>
+      </div>
+      <button class="nav-toggle" id="menuBtn" aria-label="Menü megnyitása">
+        <svg class="hamburger-icon" viewBox="0 0 24 24" width="28" height="28">
+          <path class="line line-1" d="M3 6h18"></path>
+          <path class="line line-2" d="M3 12h18"></path>
+          <path class="line line-3" d="M3 18h18"></path>
+        </svg>
+      </button>
+    </div>
+    <!-- MOBIL NAVIGÁCIÓ -->
+    <nav class="nav-mobile" id="mobileMenu">
+      <a href="index.html" data-key="nav.home">Főoldal</a>
+      <a href="index.html#services" data-key="nav.services">Szolgáltatások</a>
+      <a href="blog.html" data-key="nav.blog">Blog</a>
+      <a href="index.html#contact" data-key="nav.contact">Kapcsolat</a>
+    </nav>
+  </header>
+
+  <!-- BLOG POST HEADER - MÓDOSÍTOTT: KÉP ELŐSZÖR, CÍM ALATTA -->
+  <section class="blog-post-header">
+    <div class="blog-post-hero-image">
+      <img id="postImage" class="blog-post-image lazy" data-src="" src="images/placeholder.jpg" alt="">
+    </div>
+    <div class="container">
+      <h1 id="postTitle">Bejegyzés cím</h1>
+    </div>
+  </section>
+
+  <!-- BLOG POST CONTENT -->
+  <section class="blog-post-content">
+    <div class="container">
+      <article id="postContent">
+        <!-- Content will be loaded here by JavaScript -->
+      </article>
+      <!-- Related posts will be added here by JavaScript -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <span data-key="footer_text">© 2025 Jánosi Dalma – Minden jog fenntartva</span>
+      <div class="footer-credit">
+        <a href="mailto:birovince@yahoo.com" data-key="footer_dev">Fejlesztette: Biró Vince</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

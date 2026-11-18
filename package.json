@@ -1,0 +1,26 @@
+{
+  "name": "dalma-klinikai-pszicho",
+  "version": "3.0.0-klinikai",
+  "description": "Dr. Jánosi Dalma – klinikai pszichológusi változat (bemutató)",
+  "main": "index.html",
+  "scripts": {
+    "minify-css": "csso site/css/main.css -o site/css/main.min.css",
+    "minify-js": "terser site/js/main.js -o site/js/main.min.js -c -m",
+    "minify": "npm run minify-css && npm run minify-js",
+    "serve": "python -m http.server 8000 -d site",
+    "watch": "browser-sync start --server site --files '**/*.html, **/*.css, **/*.js'"
+  },
+  "keywords": [
+    "psychotherapy",
+    "therapy",
+    "mental-health",
+    "counseling"
+  ],
+  "author": "Dr. Jánosi Dalma",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.16.0",
+    "browser-sync": "^2.29.0"
+  }
+}

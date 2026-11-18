@@ -1,0 +1,152 @@
+{
+  "id": "who5",
+  "verzio": "1.0",
+  "nev": {
+    "hu": "WHO-5 Jóllét Index",
+    "ro": "Indicele de bunăstare OMS-5 (WHO-5)",
+    "en": "WHO-5 Well-Being Index"
+  },
+  "rovid": {
+    "hu": "Az általános lelki jóllétet méri az elmúlt két hétben.",
+    "ro": "Măsoară starea generală de bine psihic în ultimele două săptămâni.",
+    "en": "Measures your general mental well-being over the last two weeks."
+  },
+  "perc": 1,
+  "forras": "World Health Organization. The World Health Organization-Five Well-Being Index (WHO-5). Geneva: WHO; 2024. Hivatalos fordítások: Psychiatric Research Unit, Mental Health Centre North Zealand (WHO Collaborating Centre).",
+  "licenc": "CC BY-NC-SA 3.0 IGO – a forrás feltüntetése kötelező; nem kereskedelmi felhasználás.",
+  "hivatkozas": "© World Health Organization 2024. The World Health Organization-Five Well-Being Index (WHO-5). Licenc: CC BY-NC-SA 3.0 IGO.",
+  "bevezeto": {
+    "en": "Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. Notice that higher numbers mean better well-being.",
+    "hu": null,
+    "ro": null
+  },
+  "kerdes_elotag": {
+    "en": "Over the last two weeks…",
+    "hu": null,
+    "ro": null
+  },
+  "valaszok": [
+    {
+      "ertek": 5,
+      "en": "All of the time",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 4,
+      "en": "Most of the time",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 3,
+      "en": "More than half of the time",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 2,
+      "en": "Less than half of the time",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 1,
+      "en": "Some of the time",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "ertek": 0,
+      "en": "At no time",
+      "hu": null,
+      "ro": null
+    }
+  ],
+  "kerdesek": [
+    {
+      "id": 1,
+      "en": "I have felt cheerful and in good spirits",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 2,
+      "en": "I have felt calm and relaxed",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 3,
+      "en": "I have felt active and vigorous",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 4,
+      "en": "I woke up feeling fresh and rested",
+      "hu": null,
+      "ro": null
+    },
+    {
+      "id": 5,
+      "en": "My daily life has been filled with things that interest me",
+      "hu": null,
+      "ro": null
+    }
+  ],
+  "pontozas": {
+    "szorzo": 4,
+    "min": 0,
+    "max": 100,
+    "irany": "magasabb_jobb"
+  },
+  "kritikus_tetelek": [],
+  "kategoriak": [
+    {
+      "tol": 0,
+      "ig": 28,
+      "szint": "magas",
+      "nev": {
+        "hu": "Nagyon alacsony jóllét",
+        "ro": "Stare de bine foarte scăzută",
+        "en": "Very low well-being"
+      },
+      "szoveg": {
+        "hu": "A pontszám nagyon alacsony jóllétre utal. Ebben a tartományban kifejezetten javasolt szakemberrel beszélni, mert a háttérben hangulatzavar (például depresszió) is állhat.",
+        "ro": "Scorul indică o stare de bine foarte scăzută. În acest interval este puternic recomandat să vorbești cu un specialist, deoarece în spate se poate afla o tulburare de dispoziție (de exemplu depresie).",
+        "en": "The score indicates very low well-being. In this range it is strongly recommended to talk to a professional, as a mood disorder (such as depression) may be involved."
+      }
+    },
+    {
+      "tol": 32,
+      "ig": 48,
+      "szint": "kozepes",
+      "nev": {
+        "hu": "Alacsony jóllét",
+        "ro": "Stare de bine scăzută",
+        "en": "Low well-being"
+      },
+      "szoveg": {
+        "hu": "A pontszám alacsony jóllétet jelez. A WHO ajánlása szerint 50 alatti érték esetén érdemes további felmérést végezni.",
+        "ro": "Scorul indică o stare de bine scăzută. Conform recomandării OMS, la valori sub 50 merită făcută o evaluare suplimentară.",
+        "en": "The score indicates low well-being. According to the WHO, a score below 50 warrants further assessment."
+      }
+    },
+    {
+      "tol": 52,
+      "ig": 100,
+      "szint": "ok",
+      "nev": {
+        "hu": "Nem utal alacsony jóllétre",
+        "ro": "Nu indică o stare de bine scăzută",
+        "en": "No indication of low well-being"
+      },
+      "szoveg": {
+        "hu": "A pontszám nem utal alacsony jóllétre. A magasabb érték jobb jóllétet jelent.",
+        "ro": "Scorul nu indică o stare de bine scăzută. O valoare mai mare înseamnă o stare de bine mai bună.",
+        "en": "The score does not indicate low well-being. Higher values mean better well-being."
+      }
+    }
+  ]
+}

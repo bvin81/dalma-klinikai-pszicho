@@ -1,0 +1,4 @@
+# Bemutató (klinikai) változat – nem indexelendő.
+# Élesítéskor a v3 robots.txt-jét kell visszaállítani (search=yes, AI-tanítás tiltva, Sitemap sor).
+User-agent: *
+Disallow: /
